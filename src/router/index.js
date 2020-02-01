@@ -11,16 +11,42 @@ const routes = [
     component: Home
   },
   {
-    path: '/about',
-    name: 'about',
+    path: '/topics',
+    name: 'topic',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+    component: () => import('@/components/Topics.vue')
+  },
+  {
+    path: '/welcome',
+    name: 'welcome',
+    component: () => import('@/components/Welcome.vue')
+  },
+  {
+    path: '/iitbhu',
+    name: 'welcome',
+    component: () => import('@/components/Iitbhu.vue')
+  },
+  {
+    path: '/varanasi',
+    name: 'varanasi',
+    component: () => import('@/components/Varanasi.vue')
+  },
+  {
+    path: '/timeline',
+    name: 'timeline',
+    component: () => import('@/components/Dates.vue')
+  },
+  {
+    path: '/advisory',
+    name: 'timeline',
+    component: () => import('@/components/Advisory.vue')
   }
 ]
 
 const router = new VueRouter({
+  mode: "history",
   routes
 })
 
