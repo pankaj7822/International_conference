@@ -1,23 +1,42 @@
 <template>
-<v-container fluid class="secondary">
-    <v-card-text class="primary--text text-center headline">Advisory Board</v-card-text>
-  <v-carousel hide-delimiters hide-delimiter-background dark class="pa-0 ma-0">
+<v-sheet class="grey lighten-2">
+  <v-card-text class="secondary--text text-center headline">
+      Advisory Board
+    </v-card-text
+  >
+  <v-carousel
+    hide-delimiters
+    hide-delimiter-background
+    dark
+    class="pa-0 ma-0"
+    cycle
+    interval="3000"
+    height="auto"
+  >
     <v-carousel-item
       class="pa-0 ma-0"
       v-for="(item, i) in items"
       :key="i"
-      reverse-transition="fade-transition"
-      transition="fade-transition"
     >
       <v-row justify="space-around">
-        <v-col v-for="member in item" :key="member" cols="12" sm="12" md="4" lg="4">
-          <v-img :src="member.src" class="secondary" height="300" contain> </v-img>
-          <v-card-text class="white--text text-center">{{ member.name }}<br />{{ member.college }}</v-card-text>
+        <v-col
+          v-for="member in item"
+          :key="member"
+          cols="12"
+          sm="12"
+          md="4"
+          lg="4"
+        >
+          <v-img :src="member.src" height="300" contain>
+          </v-img>
+          <v-card-text class="text-center"
+            >{{ member.name }}<br />{{ member.college }}</v-card-text
+          >
         </v-col>
       </v-row>
     </v-carousel-item>
   </v-carousel>
-</v-container>
+</v-sheet>
 </template>
 
 <script>

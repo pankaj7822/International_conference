@@ -1,6 +1,6 @@
 <template>
   <v-container>
-<v-card elevation="3" max-width="1000">
+<v-card elevation="3" max-width="1000" class="mx-auto">
       <v-row>
         <v-col cols="12" sm="12" md="4" lg="4">
           <v-img style="border-radius:100%;" :src="guest" height="400" width="400"></v-img>

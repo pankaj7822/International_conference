@@ -1,13 +1,10 @@
 <template>
-  <v-carousel hide-delimiters hide-delimiter-background dark>
+  <v-carousel hide-delimiter-background dark cycle interval="5000" height="auto" show-arrows-on-hover>
     <v-carousel-item class="pa-0 ma-0"
       v-for="(item, i) in items"
       :key="i"
-      reverse-transition="fade-transition"
-      transition="fade-transition"
-
     >
-      <v-img :src="item.src" class="primary" height="500" contain> </v-img>
+      <v-img :src="item.src" height="500" contain> </v-img>
     </v-carousel-item>
   </v-carousel>
 </template>

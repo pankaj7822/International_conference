@@ -56,7 +56,7 @@ export default {
         description: "Intrested Candidates Will send their abstract"
       },
       {
-        color: "secondary",
+        color: "success",
         date: "March 19-21, 2020 ",
         name: "Conference",
         description: "Intrested Candidates Will send their abstract"

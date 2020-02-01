@@ -1,14 +1,14 @@
 <template>
-<v-card width="500">
+<v-card width="1000">
   <v-simple-table light >
     <template v-slot:default>
       <thead>
         <tr>
-          <th class="secondary white--text text-justify">Topics</th>
+          <th class="primary white--text text-center">TOPICS</th>
         </tr>
       </thead>
       <tbody>
-        <tr class="text-justify" v-for="topic in topics" :key="topic">
+        <tr class="text-center" v-for="topic in topics" :key="topic">
           <td>{{ topic }}</td>
         </tr>
       </tbody>

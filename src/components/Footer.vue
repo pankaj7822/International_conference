@@ -1,7 +1,7 @@
 <template>
-  <v-footer dark padless class="primary">
-    <v-container fluid>
-      <v-row justify="space-around" >
+  <v-footer app absolute dark padless class="primary">
+    <v-container>
+      <v-row justify="space-around" class="mt-5">
         <v-col cols="12" sm="12" md="3" lg="3" v-for="item in items" :key="item">
           <v-card class="primary" elevation="0">
             <v-img
@@ -27,7 +27,7 @@
         </v-card-text>
       </v-row>
       <v-row>
-        <v-card-title>
+        <v-card-title class="mx-auto">
           <strong class="subheading"
             >Get connected with us on social networks!</strong
           >

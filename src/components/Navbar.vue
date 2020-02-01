@@ -1,6 +1,8 @@
 <template>
-  <v-tabs background-color="secondary" center-active dark>
-    <v-tab v-for="(tab,i) in tabs" :key="i">{{tab}}</v-tab>
+  <v-tabs background-color="primary" center-active dark>
+    <v-tab v-for="(tab, i) in tabs" :key="i" @click="$router.push(tab.link)">
+      {{ tab.name }}
+    </v-tab>
   </v-tabs>
 </template>
 
@@ -9,15 +11,14 @@ export default {
   data() {
     return {
       tabs: [
-        "Home",
-        "Registration",
-        "Abstract Submission",
-        "Program",
-        "Speakers",
-        "Organizing Committee",
-        "Venue",
-        "Excursion",
-        "Contact"
+        { name: "Home", link: "/" },
+        { name: "Registration", link: "/registration" },
+        { name: "Abstract Submission", link: "/abstract" },
+        { name: "Program", link: "/program" },
+        { name: "Speakers", link: "/speakers" },
+        { name: "Organizing Committee", link: "/committee" },
+        { name: "Venue", link: "/venue" },
+        { name: "Excursion", link: "/excursion" },
       ]
     };
   }
