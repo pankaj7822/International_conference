@@ -14,9 +14,9 @@ export default {
         { name: "Home", link: "/" },
         { name: "Registration", link: "/registration" },
         { name: "Abstract Submission", link: "/abstract" },
-        { name: "Program", link: "/program" },
+        { name: "Programs", link: "/programs" },
         { name: "Speakers", link: "/speakers" },
-        { name: "Organizing Committee", link: "/committee" },
+        { name: "Organizing Committee", link: "/organizing" },
         { name: "Venue", link: "/venue" },
         { name: "Excursion", link: "/excursion" },
       ]

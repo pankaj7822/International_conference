@@ -25,6 +25,18 @@ const routes = [
   {
     path: '/programs',
     component: () => import('@/pages/Programs.vue')
+  },
+  {
+    path: '/speakers',
+    component: () => import('@/pages/Speakers.vue')
+  },
+  {
+    path: '/organizing',
+    component: () => import('@/pages/Organizing.vue')
+  },
+  {
+    path: '/excursion',
+    component: () => import('@/pages/Excursion.vue')
   }
 ]
 

@@ -4,12 +4,12 @@
       <template v-slot:default>
         <thead>
           <tr>
-            <th class="primary white--text text-center">MEMBERS</th>
+            <th class="primary white--text text-center">TECHNICAL TEAM</th>
           </tr>
         </thead>
         <tbody>
           <tr class="text-center" v-for="(member,i) in members" :key="i">
-            <td>{{ member }}</td>
+            <td v-html="member" class="pa-2" />
           </tr>
         </tbody>
       </template>

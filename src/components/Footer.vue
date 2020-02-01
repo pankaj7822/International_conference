@@ -2,7 +2,14 @@
   <v-footer app absolute dark padless class="primary">
     <v-container>
       <v-row justify="space-around" class="mt-5">
-        <v-col cols="12" sm="12" md="3" lg="3" v-for="item in items" :key="item">
+        <v-col
+          cols="12"
+          sm="12"
+          md="3"
+          lg="3"
+          v-for="item in items"
+          :key="item"
+        >
           <v-card class="primary" elevation="0">
             <v-img
               class="pa-0 mx-auto"
@@ -20,7 +27,7 @@
         </v-col>
       </v-row>
       <v-row>
-        <v-card-text class="text-center headline">
+        <v-card-text class="text-center title font-weight-light">
           Contact<br />
           Email: {{ email }}<br />
           Phone: {{ phone }}
@@ -28,9 +35,7 @@
       </v-row>
       <v-row>
         <v-card-title class="mx-auto">
-          <strong class="subheading"
-            >Get connected with us on social networks!</strong
-          >
+          Get connected with us on social networks
           <v-spacer></v-spacer>
           <v-btn v-for="icon in icons" :key="icon" class="mx-4" dark icon>
             <v-icon size="24px">{{ icon }}</v-icon>
@@ -50,8 +55,8 @@ export default {
       "mdi-linkedin-box",
       "mdi-instagram"
     ],
-    email:"mecs2018@gmail.com",
-    phone:"+91-8887864114",
+    email: "mecs2018@gmail.com",
+    phone: "+91-8887864114",
     items: [
       {
         event_post: "Convener",
@@ -65,8 +70,7 @@ export default {
         event_post: "Co-Convener",
         name: "Dr. T. Maiyalagan",
         post: "Associate Professor",
-        department:
-          "Department of Chemistry",
+        department: "Department of Chemistry",
         college: "SRM Institute of Science and Technology",
         image_src: require("@/assets/images/Footer/maligan.jpg")
       },

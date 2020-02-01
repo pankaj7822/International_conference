@@ -1,5 +1,5 @@
 <template>
-<v-card width="1000">
+<v-card width="1000" class="ma-3 mx-auto">
   <v-simple-table light >
     <template v-slot:default>
       <thead>
@@ -9,7 +9,7 @@
       </thead>
       <tbody>
         <tr class="text-center" v-for="(speaker,i) in speakers" :key="i">
-          <td>{{ speaker }}</td>
+          <td v-html="speaker" class="pa-2" />
         </tr>
       </tbody>
     </template>
