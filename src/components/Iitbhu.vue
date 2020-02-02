@@ -19,7 +19,7 @@ export default {
     return {
       message:
         "Indian Institute of Technology (BHU) Varanasi (abbreviated IIT (BHU) Varanasi or simply IIT BHU) is a public engineering institution located in Varanasi, Uttar Pradesh, India. Founded in 1919 as the Banaras Engineering College, it became the Institute of Technology, Banaras Hindu University in 1968. It was designated an Indian Institute of Technology in 2012. IIT (BHU) Varanasi has 14 departments and 3 inter-disciplinary schools.",
-      src: require("@/assets/images/IITBHU.jpg")
+      src: require("@/assets/images/iitbhu.jpg")
     };
   }
 };

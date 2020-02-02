@@ -9,7 +9,7 @@
           </tr>
         </thead>
         <tbody>
-          <tr class="text-center" v-for="fee in fees" :key="fee">
+          <tr class="text-center" v-for="(fee, i) in fees" :key="i">
             <td style="width:30%;">{{ fee.name }}</td>
             <td>{{ fee.amount }}</td>
           </tr>

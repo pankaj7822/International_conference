@@ -35,31 +35,31 @@ export default {
         color: "primary",
         date: "Febraury 2, 2020",
         name: "Abstract Submission Starts",
-        description: "Intrested Candidates Will send their abstract"
+        description: "Interested candidates will send their abstract"
       },
       {
         color: "primary",
         date: "March 5, 2020",
         name: "Registration Starts",
-        description: "Intrested Candidates Will send their abstract"
+        description: "Candidates can register and pay the registration fees"
       },
       {
         color: "red",
         date: "Febraury 10, 2020",
         name: "Abstract Submission Deadline",
-        description: "Intrested Candidates Will send their abstract"
+        description: "Candidates will submit their abstracts to us"
       },
       {
         color: "red",
         date: "March 10, 2020",
         name: "Registration Closes",
-        description: "Intrested Candidates Will send their abstract"
+        description: "Last date for registration"
       },
       {
         color: "success",
         date: "March 19-21, 2020 ",
         name: "Conference",
-        description: "Intrested Candidates Will send their abstract"
+        description: "Conference will be conducted in IIT (BHU) Varanasi"
       }
     ]
   })

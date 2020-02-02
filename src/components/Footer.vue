@@ -7,8 +7,8 @@
           sm="12"
           md="3"
           lg="3"
-          v-for="item in items"
-          :key="item"
+          v-for="(item, i) in items"
+          :key="i"
         >
           <v-card class="primary" elevation="0">
             <v-img

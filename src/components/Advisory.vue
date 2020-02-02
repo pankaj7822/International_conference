@@ -1,5 +1,5 @@
 <template>
-  <v-sheet class="grey lighten-2">
+  <v-sheet class="grey lighten-5 ma-0 pa-0">
     <v-card-text class="secondary--text text-center headline">
       Advisory Board
     </v-card-text>
@@ -15,8 +15,8 @@
       <v-carousel-item class="pa-0 ma-0" v-for="(item, i) in items" :key="i">
         <v-row justify="space-around">
           <v-col
-            v-for="member in item"
-            :key="member"
+            v-for="(member, j) in item"
+            :key="j"
             cols="12"
             sm="12"
             md="4"

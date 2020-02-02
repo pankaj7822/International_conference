@@ -39,14 +39,15 @@ export default {
       // default to Montreal to keep it simple
       // change this to whatever makes sense
       center: { lat: 25.2677203, lng: 82.9912582 },
-      markers: [{ lat: 25.2677203, lng: 82.9912582 }],
+      markers: [],
       places: [],
-      currentPlace: { lat: 25.2677203, lng: 82.9912582 }
+      currentPlace: null
     };
   },
 
   mounted() {
     this.addMarker();
+    this.setPlace(this.center);
     this.geolocate();
   },
 
@@ -67,7 +68,7 @@ export default {
         this.currentPlace = null;
       }
     },
-    geolocate: function() {
+    geolocate() {
       navigator.geolocation.getCurrentPosition(position => {
         this.center = {
           lat: position.coords.latitude,
