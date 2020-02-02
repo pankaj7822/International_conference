@@ -14,7 +14,7 @@
             <td>{{ fee.amount }}</td>
           </tr>
         </tbody>
-        <br>
+        <br />
       </template>
     </v-simple-table>
   </v-card>
@@ -33,8 +33,7 @@ export default {
         { name: "Faculty", amount: "₹ 10000/- (ESSI Member ₹ 9000/-)" },
         { name: "Industry Delegates", amount: "₹ 25,000/-" },
         { name: "International Student", amount: "US $500" },
-        { name: "International Faculty", amount: "US $1000" },
-
+        { name: "International Faculty", amount: "US $1000" }
       ]
     };
   }

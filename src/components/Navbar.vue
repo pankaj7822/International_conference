@@ -18,7 +18,7 @@ export default {
         { name: "Speakers", link: "/speakers" },
         { name: "Organizing Committee", link: "/organizing" },
         { name: "Venue", link: "/venue" },
-        { name: "Excursion", link: "/excursion" },
+        { name: "Excursion", link: "/excursion" }
       ]
     };
   }

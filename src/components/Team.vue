@@ -8,7 +8,7 @@
           </tr>
         </thead>
         <tbody>
-          <tr class="text-center" v-for="(member,i) in members" :key="i">
+          <tr class="text-center" v-for="(member, i) in members" :key="i">
             <td v-html="member" class="pa-2" />
           </tr>
         </tbody>

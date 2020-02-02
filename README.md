@@ -1,4 +1,4 @@
-# international_conference
+# international
 
 ## Project setup
 ```

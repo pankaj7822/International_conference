@@ -4,12 +4,12 @@
       <v-container>
         <v-card-title>About Varanasi</v-card-title>
         <v-row justify="space-around">
-        <v-col cols="12" md="4">
-          <v-img :src="src"></v-img>
-        </v-col>
-        <v-col cols="12" md="8">
-          <v-card-text>{{ message }}</v-card-text>
-        </v-col>
+          <v-col cols="12" md="4">
+            <v-img :src="src"></v-img>
+          </v-col>
+          <v-col cols="12" md="8">
+            <v-card-text>{{ message }}</v-card-text>
+          </v-col>
         </v-row>
       </v-container>
     </v-card>

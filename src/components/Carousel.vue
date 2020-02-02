@@ -1,9 +1,13 @@
 <template>
-  <v-carousel hide-delimiter-background dark cycle interval="5000" height="auto" show-arrows-on-hover>
-    <v-carousel-item class="pa-0 ma-0"
-      v-for="(item, i) in items"
-      :key="i"
-    >
+  <v-carousel
+    hide-delimiter-background
+    dark
+    cycle
+    interval="5000"
+    height="auto"
+    show-arrows-on-hover
+  >
+    <v-carousel-item class="pa-0 ma-0" v-for="(item, i) in items" :key="i">
       <v-img :src="item.src" height="500" contain> </v-img>
     </v-carousel-item>
   </v-carousel>
@@ -28,7 +32,7 @@ export default {
         },
         {
           src: require("@/assets/images/carousel/iitbhuticket.png")
-        },
+        }
       ]
     };
   }

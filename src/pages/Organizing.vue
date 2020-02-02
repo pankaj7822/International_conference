@@ -16,12 +16,10 @@
 import Committee from "@/components/Committee.vue";
 import Team from "@/components/Team.vue";
 
-
 export default {
   components: {
     Committee,
-    Team,
-
+    Team
   }
 };
 </script>

@@ -1,11 +1,11 @@
 <template>
   <v-app>
     <v-content app>
-      <Navbar/>
-      <Header/>
-      <router-view/>
+      <Navbar />
+      <Header />
+      <router-view />
     </v-content>
-    <Footer/>
+    <Footer />
   </v-app>
 </template>
 
@@ -14,7 +14,7 @@ import Header from "@/components/Header.vue";
 import Navbar from "@/components/Navbar.vue";
 import Footer from "@/components/Footer.vue";
 export default {
-  name: 'App',
+  name: "App",
 
   components: {
     Header,
@@ -24,6 +24,6 @@ export default {
 
   data: () => ({
     //
-  }),
+  })
 };
 </script>

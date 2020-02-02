@@ -37,7 +37,7 @@ export default {
         },
         {
           src: require("@/assets/logos/srm.png")
-        },
+        }
       ]
     };
   },
