@@ -15,7 +15,7 @@ export default {
   data() {
     return {
       items: [
-        "Selected abstracts will be given discount in registration fees",
+        "Selected Excellent abstracts will be given discount in registration fees",
         "Conference proceedings will be published in Elsevier"
       ]
     };

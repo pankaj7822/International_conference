@@ -28,8 +28,9 @@ export default {
         {
           name: "Student",
           amount:
-            "₹ 4000/- (ESSI Member ₹ 3000/-, IIT BHU and BHU Students ₹ 3500/) Other charges (Accomodation + Excursion) ₹ 3000/-"
+            "₹ 4000/- (ESSI Member ₹ 3000/-,Other charges (Accomodation + Excursion) ₹ 3000/-"
         },
+        { name: "IIT BHU and BHU Students", amount: "₹ 4000/" },
         { name: "Faculty", amount: "₹ 10000/- (ESSI Member ₹ 9000/-)" },
         { name: "Industry Delegates", amount: "₹ 25,000/-" },
         { name: "International Student", amount: "US $500" },

@@ -18,9 +18,7 @@
           <h2 :class="`headline font-weight-light mb-4 ${event.color}--text`">
             {{ event.name }}
           </h2>
-          <div>
-            {{ event.description }}
-          </div>
+
         </div>
       </v-timeline-item>
     </v-timeline>

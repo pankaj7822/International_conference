@@ -22,8 +22,6 @@ export default {
   data() {
     return {
       speakers: [
-        "Prof. John B. Goodenough<br/>The University of Texas at Austin, USA",
-        "Dr. Eric D Wachsman<br/>Director of the University of Maryland Energy Research Center, USA",
         "Prof. Donald Siegel<br/>University of Michigan, USA",
         "Dr. M. Parans Paranthaman<br/>Oak Ridge National Laboratory (ORNL), USA",
         "Dr. Vijayamohanan K Pillai<br/>Director, CSIR-CECRI",

@@ -1,10 +1,10 @@
 <template>
   <v-container fluid class="primary">
-    <v-row justify="center" align="center" class="mx-auto">
+    <v-row justify="center"  class="mx-auto">
       <v-col cols="12" md="6" class="white--text">
-        <v-row class="mx-auto my-2">
-          <v-col cols="4" v-for="(logo, i) in logos" :key="i">
-            <v-img :src="logo.src" width="100" contain> </v-img>
+        <v-row class="mx-0 my-0">
+          <v-col cols="4" v-for="(img, i) in image" :key="i">
+            <v-img :src="img.src" min-width="630" class="ma-0 pa-0" contain> </v-img>
           </v-col>
         </v-row>
         <div class="display-2 font-weight-thin my-3">{{ title }}</div>
@@ -32,16 +32,10 @@ export default {
       now: Math.trunc(new Date().getTime() / 1000),
       date: "19-21 March, 2020",
       venue: "IIT(BHU) Varanasi",
-      logos: [
+      image: [
         {
-          src: require("@/assets/logos/iitbhu.png")
+          src: require("@/assets/images/association.png")
         },
-        {
-          src: require("@/assets/logos/essi.png")
-        },
-        {
-          src: require("@/assets/logos/srm.png")
-        }
       ]
     };
   },

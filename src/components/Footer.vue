@@ -21,7 +21,8 @@
             ></v-img>
             <v-card-text class="primary text-center subtitle-1"
               >{{ item.event_post }}<br />{{ item.name }}<br />{{ item.post
-              }}<br />{{ item.department }}<br />{{ item.college }}</v-card-text
+              }}<br /><span v-if="item.department">{{ item.department }}</span
+              ><br />{{ item.college }}</v-card-text
             >
           </v-card>
         </v-col>
@@ -55,8 +56,8 @@ export default {
       "mdi-linkedin-box",
       "mdi-instagram"
     ],
-    email: "mecs2018@gmail.com",
-    phone: "+91-8887864114",
+    email: "bfat2020.iitbhu@gmail.com",
+    phone: "+91-9670365598",
     items: [
       {
         event_post: "Convener",
@@ -64,21 +65,29 @@ export default {
         post: "Assistant Professor",
         department: "Department of Ceramic Engineering",
         college: "IIT(BHU), Varanasi",
-        image_src: require("@/assets/images/Footer/preetam.jpg")
+        image_src: require("@/assets/images/Footer/preetam.png")
       },
       {
         event_post: "Co-Convener",
         name: "Dr. T. Maiyalagan",
-        post: "Associate Professor",
+        post: "Professor and Head",
         department: "Department of Chemistry",
         college: "SRM Institute of Science and Technology",
         image_src: require("@/assets/images/Footer/maligan.jpg")
       },
       {
+        event_post: "Co-Chairman",
+        name: "Prof. Vinary Kumar Singh",
+        post: "Professor",
+        department: "Department of Ceramic Engineering",
+        college: "IIT(BHU), Varanasi",
+        image_src: require("@/assets/images/Footer/vinay.jpg")
+      },
+      {
         event_post: "Chairman",
         name: "Prof. Rajiv Prakash",
         post: "Professor & Dean(R&D)",
-        department: "Department of Ceramic Engineering",
+        department: "",
         college: "IIT(BHU), Varanasi",
         image_src: require("@/assets/images/Footer/rajiv.jpg")
       }

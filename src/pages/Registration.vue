@@ -8,6 +8,7 @@
         <Topics />
         <br />
         <Fees />
+        <Payment />
         <v-btn class="primary my-5 mr-3">Register As Participant</v-btn>
         <v-btn class="primary my-5">Register As Audience</v-btn>
       </v-col>
@@ -20,12 +21,14 @@
 import Dates from "@/components/Dates.vue";
 import Topics from "@/components/Topics.vue";
 import Fees from "@/components/Fees.vue";
+import Payment from "@/components/Payment.vue";
 
 export default {
   components: {
     Dates,
     Topics,
-    Fees
+    Fees,
+    Payment
   }
 };
 </script>
