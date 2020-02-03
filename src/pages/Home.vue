@@ -9,6 +9,7 @@
         <Welcome />
         <Iitbhu />
         <Varanasi />
+        <Director />
       </v-col>
     </v-row>
     <Advisory />
@@ -23,6 +24,7 @@ import Iitbhu from "@/components/Iitbhu.vue";
 import Varanasi from "@/components/Varanasi.vue";
 import Advisory from "@/components/Advisory.vue";
 import Notice from "@/components/Notice.vue";
+import Director from "@/components/Director.vue";
 
 export default {
   components: {
@@ -31,7 +33,8 @@ export default {
     Iitbhu,
     Varanasi,
     Advisory,
-    Notice
+    Notice,
+    Director
   }
 };
 </script>

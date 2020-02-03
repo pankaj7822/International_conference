@@ -33,7 +33,7 @@ export default {
       guest: require("@/assets/images/welcome/goodenough.png"),
       nobel: require("@/assets/images/welcome/Nobel_Prize.png"),
       message:
-        "The aim of the conference is to celebrate the recognition of Li-ion battery technology and pay tribute to the (living legend and battery pioneer Prof. John B. Goodenough (Nobel Prize in Chemistry 2019 The conference is themed on the emergence of hydrogen economy in the arena of post fossil fuel technologies and emerging zero emission technologies      especially for automobile industries. Filling the gap between fuel cells and rechargeable batteries technologies to overcome the challenges imposed by existing fossil fuel based technologies are the main agendas of the conference"
+        "The aim of the conference is to celebrate the recognition of Li-ion battery technology and pay tribute to the (living legend and battery pioneer Prof. John B. Goodenough (Nobel Prize in Chemistry 2019 The conference is themed on the emergence of hydrogen economy in the arena of post-fossil fuel technologies and emerging zero-emission technologies, especially for automobile industries. Filling the gap between fuel cells and rechargeable batteries technologies to overcome the challenges imposed by existing fossil fuel-based technologies are the main agendas of the conference."
     };
   }
 };
